@@ -1,0 +1,114 @@
+body{
+    margin: 0%;
+    font-family: 'poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.Tomato-highlight{
+    color: tomato;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.half-width h1{
+    color: dodgerblue;
+}
+.half-width img{
+    width: 100%;
+}
+.bg-light{
+    background: lightgoldenrodyellow;
+}
+.section-padding{
+    padding: 100px 0;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon, tomato);
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+}
+#full-stock{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato) ;
+    border-image-slice: 1;
+
+}
+
+#half-stock{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#end-stock{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+
+
+.gym_block h3{
+    margin: 0;
+    padding: 20px 0;
+    font-size: 22px;
+    color:slateblue ;
+}
+
+.gym_block p{
+    margin: 0;
+    color: dimgray;
+}
+.gym_block img{
+
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.finding-box{
+    width:70%;
+    margin: auto;
+    padding: 80px 60px;
+    border-radius: 30px;
+    overflow: hidden;
+    background: url("images/finding.png") no-repeat scroll center /cover;
+}
+
+.finding-box h2{
+    font-size: 60px;
+    font-family:  cursive;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+    color: lightgoldenrodyellow;
+}
+
+finding-button{
+    text-align: right;
+    margin-top: 27px;
+}
+ 
+.button{
+text-decoration: none;
+background-image: linear-gradient(lightsalmon, tomato);
+background-color: orange;
+padding: 10px 20px;
+border-radius: 10px;
+color: white;
+font-weight: 800;
+
+}
+
+footer h2{
+    text-align: center;
+    font-size: 50px;
+}
